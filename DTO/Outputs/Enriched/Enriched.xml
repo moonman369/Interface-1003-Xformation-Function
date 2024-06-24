@@ -1,0 +1,51 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:s="http://www.w3.org/2001/XMLSchema">
+    <SOAP-ENV:Body>
+        <EnrichedResponse xmlns="http://tempuri.org">
+            <FindPersonResult>
+                <Name>Bach,Fred X.</Name>
+                <SSN>700-84-5268</SSN>
+                <DOB>1932-03-09</DOB>
+                <Home>
+                    <Street>3974 Franklin Place</Street>
+                    <City>Tampa</City>
+                    <State>WY</State>
+                    <Zip>20326</Zip>
+                </Home>
+                <Office>
+                    <Street>6865 Second Street</Street>
+                    <City>Hialeah</City>
+                    <State>DE</State>
+                    <Zip>68487</Zip>
+                </Office>
+                <FavoriteColors>
+                    <FavoriteColorsItem>Green</FavoriteColorsItem>
+                </FavoriteColors>
+                <Age>92</Age>
+            </FindPersonResult>
+            <AddIntegerResult>5977</AddIntegerResult>
+            <TodoResult>
+                <note>
+                    <todos>
+                        <todo priority="High">
+                            <title>Eat</title>
+                            <frequency>3</frequency>
+                        </todo>
+                        <todo priority="High">
+                            <title>Eat</title>
+                            <frequency>3</frequency>
+                        </todo>
+                        <todo priority="High">
+                            <title>Eat</title>
+                            <frequency>3</frequency>
+                        </todo>
+                        <todo priority="High">
+                            <title>Eat</title>
+                            <frequency>3</frequency>
+                        </todo>
+                    </todos>
+                </note>
+            </TodoResult>
+        </EnrichedResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
